@@ -5,6 +5,7 @@ node --inspect index.js
 ```
 
 In my particular case it was failing with a bunch of still running tasks:
+```
 ZLIB
 D:\Personal stuff\Desktop\TestRigs\TestVue\test-favicons\node_modules\pngjs\lib\parser-async.js:72 - this._inflate = zlib.createInflate({ chunkSize: chunkSize });
 D:\Personal stuff\Desktop\TestRigs\TestVue\test-favicons\node_modules\pngjs\lib\parser.js:273      - this.inflateData(data);
@@ -37,3 +38,4 @@ D:\Personal stuff\Desktop\TestRigs\TestVue\test-favicons\node_modules\pngjs\lib\
 D:\Personal stuff\Desktop\TestRigs\TestVue\test-favicons\node_modules\pngjs\lib\chunkstream.js:133 - read.func.call(this, smallerBuf.slice(0, read.length));
 D:\Personal stuff\Desktop\TestRigs\TestVue\test-favicons\node_modules\pngjs\lib\chunkstream.js:187 - this._processReadAllowingLess(read);
 D:\Personal stuff\Desktop\TestRigs\TestVue\test-favicons\node_modules\pngjs\lib\chunkstream.js:61  - this._process();
+```
