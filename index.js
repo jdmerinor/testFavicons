@@ -18,7 +18,8 @@ const configuration = {
 		firefox: false,
 		windows: false,
 		yandex: false
-	}
+	},
+	logging: true,
 };
 
 const timeoutVar = setTimeout(function () {
